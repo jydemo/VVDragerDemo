@@ -12,6 +12,10 @@
 		5C280ABD1E19F88800D8132B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C280ABB1E19F88800D8132B /* Main.storyboard */; };
 		5C280ABF1E19F88800D8132B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C280ABE1E19F88800D8132B /* Assets.xcassets */; };
 		5C280AC21E19F88800D8132B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C280AC01E19F88800D8132B /* LaunchScreen.storyboard */; };
+		5C280ACA1E19F8D200D8132B /* VVDragerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C280AC91E19F8D200D8132B /* VVDragerViewController.swift */; };
+		5C280ACC1E1A1F6900D8132B /* VVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C280ACB1E1A1F6900D8132B /* VVViewController.swift */; };
+		5C280ACE1E1A200700D8132B /* VVNavgationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C280ACD1E1A200700D8132B /* VVNavgationView.swift */; };
+		5C280AD01E1A201E00D8132B /* VVNavgationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C280ACF1E1A201E00D8132B /* VVNavgationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5C280ABE1E19F88800D8132B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C280AC11E19F88800D8132B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C280AC31E19F88800D8132B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C280AC91E19F8D200D8132B /* VVDragerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDragerViewController.swift; sourceTree = "<group>"; };
+		5C280ACB1E1A1F6900D8132B /* VVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVViewController.swift; sourceTree = "<group>"; };
+		5C280ACD1E1A200700D8132B /* VVNavgationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVNavgationView.swift; sourceTree = "<group>"; };
+		5C280ACF1E1A201E00D8132B /* VVNavgationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VVNavgationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				5C280ABE1E19F88800D8132B /* Assets.xcassets */,
 				5C280AC01E19F88800D8132B /* LaunchScreen.storyboard */,
 				5C280AC31E19F88800D8132B /* Info.plist */,
+				5C280AC91E19F8D200D8132B /* VVDragerViewController.swift */,
+				5C280ACB1E1A1F6900D8132B /* VVViewController.swift */,
+				5C280ACD1E1A200700D8132B /* VVNavgationView.swift */,
+				5C280ACF1E1A201E00D8132B /* VVNavgationView.xib */,
 			);
 			path = VVDragerDemo;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			files = (
 				5C280AC21E19F88800D8132B /* LaunchScreen.storyboard in Resources */,
 				5C280ABF1E19F88800D8132B /* Assets.xcassets in Resources */,
+				5C280AD01E1A201E00D8132B /* VVNavgationView.xib in Resources */,
 				5C280ABD1E19F88800D8132B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C280ACE1E1A200700D8132B /* VVNavgationView.swift in Sources */,
+				5C280ACC1E1A1F6900D8132B /* VVViewController.swift in Sources */,
+				5C280ACA1E19F8D200D8132B /* VVDragerViewController.swift in Sources */,
 				5C280ABA1E19F88800D8132B /* ViewController.swift in Sources */,
 				5C280AB81E19F88800D8132B /* AppDelegate.swift in Sources */,
 			);

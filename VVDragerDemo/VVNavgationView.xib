@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xHd-cS-gAS" customClass="VVNavgationView" customModule="VVDragerDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbI-cY-IAK">
+                    <rect key="frame" x="13" y="44" width="46" height="30"/>
+                    <state key="normal" title="点击我"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zB0-69-SNU">
+                    <rect key="frame" x="131" y="44" width="62" height="30"/>
+                    <state key="normal" title="侧滑首页"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7J-IO-7VA">
+                    <rect key="frame" x="281" y="44" width="30" height="30"/>
+                    <state key="normal" title="VV"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="HbI-cY-IAK" firstAttribute="leading" secondItem="xHd-cS-gAS" secondAttribute="leading" constant="13" id="8EX-ge-H9u"/>
+                <constraint firstItem="Y7J-IO-7VA" firstAttribute="baseline" secondItem="zB0-69-SNU" secondAttribute="baseline" id="FeR-dJ-Z54"/>
+                <constraint firstItem="zB0-69-SNU" firstAttribute="centerY" secondItem="HbI-cY-IAK" secondAttribute="centerY" id="PVR-Ls-Hx8"/>
+                <constraint firstItem="zB0-69-SNU" firstAttribute="centerY" secondItem="xHd-cS-gAS" secondAttribute="centerY" constant="10" id="Vdn-d9-ng7"/>
+                <constraint firstItem="zB0-69-SNU" firstAttribute="centerX" secondItem="xHd-cS-gAS" secondAttribute="centerX" id="ZeR-5E-0km"/>
+                <constraint firstAttribute="trailing" secondItem="Y7J-IO-7VA" secondAttribute="trailing" constant="13" id="nJ5-58-4jZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftButton" destination="HbI-cY-IAK" id="dqQ-R2-SM9"/>
+                <outlet property="rightButton" destination="Y7J-IO-7VA" id="KaT-Ff-mvs"/>
+            </connections>
+            <point key="canvasLocation" x="-89" y="147"/>
+        </view>
+    </objects>
+</document>
